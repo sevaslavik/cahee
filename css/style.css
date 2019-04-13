@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Raleway", sans-serif; }
+
+h1 {
+  font-size: 60px; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+.grid {
+  width: 1170px;
+  margin: 0 auto; }
+
+.hero {
+  min-height: 100vh;
+  background-image: url("../img/hero-bg.png"); }
+  .hero__title {
+    margin-bottom: 30px; }
+  .hero__description {
+    width: 30%;
+    margin-bottom: 30px; }
+  .hero__btn {
+    font-size: 20px;
+    color: #fff;
+    background-color: #ff6033;
+    border: none; }
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  margin-bottom: 240px; }
+  .header__logo {
+    font-family: "Pacifico", cursive;
+    font-size: 50px; }
+  .header__item {
+    display: inline-block; }
+    .header__item:not(:last-child) {
+      margin-right: 35px; }
+  .header__link {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #262626; }
+    .header__link:hover {
+      padding-top: 9px;
+      border-top: 3px solid #ff6033; }
+    .header__link--active {
+      padding-top: 9px;
+      border-top: 3px solid #ff6033; }

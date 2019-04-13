@@ -1,0 +1,22 @@
+.hero {
+
+    min-height: 100vh;
+    background-image: url('#{$way-to}hero-bg.png');
+
+    &__title {
+        margin-bottom: 30px;
+    }
+
+    &__description {
+        width: 30%;
+        margin-bottom: 30px;
+    }
+
+    &__btn{
+        font-size: 20px;
+        color: #fff;
+        background-color: $orange;
+        border: none;
+    }
+
+}
