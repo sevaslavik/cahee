@@ -10,6 +10,9 @@ body {
 h1 {
   font-size: 60px; }
 
+h2 {
+  font-size: 90px; }
+
 a {
   text-decoration: none; }
 
@@ -29,10 +32,15 @@ ul {
     width: 30%;
     margin-bottom: 30px; }
   .hero__btn {
+    padding: 20px 27px;
     font-size: 20px;
     color: #fff;
     background-color: #ff6033;
     border: none; }
+  .hero__link--position {
+    position: absolute;
+    left: 50%;
+    bottom: 60px; }
 
 .header {
   display: -webkit-box;

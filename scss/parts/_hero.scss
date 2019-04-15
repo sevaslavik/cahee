@@ -13,10 +13,24 @@
     }
 
     &__btn{
+        padding: 20px 27px;
         font-size: 20px;
         color: #fff;
         background-color: $orange;
         border: none;
+    }
+
+    &__link{
+
+        &:hover{
+
+        }
+
+        &--position{
+            position: absolute;
+            left: 50%;
+            bottom: 60px;
+        }
     }
 
 }
