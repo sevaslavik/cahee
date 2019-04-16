@@ -19,9 +19,6 @@ a {
 ul {
   list-style: none; }
 
-img {
-  width: 100%; }
-
 .grid {
   width: 1170px;
   margin: 0 auto; }
@@ -100,3 +97,88 @@ img {
     color: #fff; }
     .about__description--bottom {
       padding-bottom: 260px; }
+
+.product {
+  background-color: #70bfff;
+  background-image: url("../img/tomata.png");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-position-x: 70%; }
+  .product__conteiner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    padding-top: 180px;
+    padding-bottom: 150px; }
+  .product__form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    -ms-flex-line-pack: start;
+    align-content: flex-start; }
+  .product__btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    background-color: #fff;
+    border: none; }
+    .product__btn:not(:last-child) {
+      margin-bottom: 20px; }
+  .product__description {
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    padding: 36px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 20px; }
+  .product__separator {
+    width: 99px;
+    height: 100px;
+    padding: 20px;
+    border-left: 1px solid #262626; }
+  .product__title {
+    color: #fff; }
