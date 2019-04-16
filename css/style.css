@@ -79,3 +79,21 @@ ul {
     .header__link--active {
       padding-top: 9px;
       border-top: 3px solid #ff6033; }
+
+.about {
+  background-image: url("../img/about-bg.png");
+  background-repeat: no-repeat;
+  background-position: 180px center;
+  background-color: #00b9b9; }
+  .about__title {
+    padding-top: 175px;
+    padding-left: 670px;
+    color: #fff; }
+  .about__description {
+    padding-left: 670px;
+    padding-bottom: 25px;
+    font-size: 17px;
+    line-height: 28px;
+    color: #fff; }
+    .about__description--bottom {
+      padding-bottom: 260px; }

@@ -1,0 +1,25 @@
+.about{
+    background-image: url('#{$way-to}about-bg.png');
+    background-repeat: no-repeat;
+    background-position: 180px center;
+    background-color: $light-aqua;
+
+    &__title{
+        padding-top: 175px;
+        padding-left: 670px;
+        color: $white;
+    }
+
+    &__description{
+        padding-left: 670px;
+        padding-bottom: 25px;
+        font-size: 17px;
+        line-height: 28px;
+        color: $white;
+
+        &--bottom{
+            padding-bottom: 260px;
+        }
+    }
+
+}
