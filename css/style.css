@@ -19,6 +19,9 @@ a {
 ul {
   list-style: none; }
 
+p {
+  font-size: 17px; }
+
 .grid {
   width: 1170px;
   margin: 0 auto; }
@@ -182,3 +185,23 @@ ul {
     border-left: 1px solid #262626; }
   .product__title {
     color: #fff; }
+
+.galery {
+  background-color: #ffe92f; }
+  .galery__title {
+    margin-bottom: 45px;
+    padding-top: 100px; }
+  .galery__description {
+    margin-bottom: 50px;
+    line-height: 27px; }
+  .galery__img {
+    margin-bottom: 20px; }
+  .galery__row {
+    margin-bottom: 45px; }
+  .galery__link {
+    padding: 20px 45px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #5585a2; }
+  .galery__down {
+    padding-bottom: 120px; }

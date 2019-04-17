@@ -1,0 +1,38 @@
+.galery{
+    background-color: $yellow;
+
+    &__title{
+        margin-bottom: 45px;
+        padding-top: 100px;
+    }
+
+    &__description{
+        margin-bottom: 50px;
+        line-height: 27px;
+    }
+
+    &__img{
+        
+        margin-bottom: 20px;
+        
+        
+    }
+
+    &__row{
+        margin-bottom: 45px;
+    }
+
+    &__link{
+        
+        padding: 20px 45px;
+        
+        font-size: 20px;
+        color: $white;
+        background-color: $middle-blue;
+    }
+
+    &__down{
+        padding-bottom: 120px;
+    }
+
+}
