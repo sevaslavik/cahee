@@ -1,0 +1,77 @@
+.blog{
+    background-color: $purple;
+    color: $white;
+    &__title{
+        margin-bottom: 45px;
+        padding-top: 100px;
+    }
+
+    &__description{
+        margin-bottom: 50px;
+        line-height: 27px;
+    }
+
+    &__row{
+        margin-bottom: 65px;
+    }
+
+    &__item{
+
+        &-smozi{
+            background-image: url('#{$way-to}blog1.png');
+            background-repeat: no-repeat;
+        }
+
+        &-soup{
+            background-image: url('#{$way-to}blog2.png');
+            background-repeat: no-repeat; 
+        }
+
+        &-strobery{
+            background-image: url('#{$way-to}blog3.png');
+            background-repeat: no-repeat;
+        }
+
+    }
+
+    &__date{
+        display: inline-block;
+        width: 15%;
+        margin-top: 30px;
+        margin-left: 30px;
+        text-align: center;
+        font-size: 21px;
+        font-weight: 900;
+        border-radius: 5px;
+        background-color: $dark;
+    }
+
+    &__eat{
+        display: block;
+        padding-top: 119px;
+        padding-right: 10px;
+        padding-left: 20px;
+        margin-bottom: 24px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    &__auskteez{
+        display: inline-block;
+        margin-bottom: 24px;
+        padding-left: 20px;
+        font-size: 13px;
+    }
+
+    &__link{
+        padding: 20px 45px;
+        font-size: 20px;
+        color: $white;
+        background-color: $sexy-red;
+    }
+
+    &__down{
+        padding-bottom: 120px;
+    }
+
+}

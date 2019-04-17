@@ -13,6 +13,9 @@ h1 {
 h2 {
   font-size: 90px; }
 
+h3 {
+  font-size: 40px; }
+
 a {
   text-decoration: none; }
 
@@ -204,4 +207,79 @@ p {
     color: #fff;
     background-color: #5585a2; }
   .galery__down {
+    padding-bottom: 120px; }
+
+.subscribe {
+  background-image: url("../img/bg-yagodi.png");
+  background-repeat: no-repeat;
+  background-position: center; }
+  .subscribe__title {
+    padding-top: 140px;
+    margin-bottom: 35px; }
+  .subscribe__description {
+    margin-bottom: 35px; }
+  .subscribe__form {
+    padding-bottom: 160px; }
+  .subscribe__email {
+    width: 100%;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    padding: 20px; }
+  .subscribe__btn {
+    width: 100%;
+    padding: 16px 0;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    color: #fff;
+    background-color: #96b92c; }
+
+.blog {
+  background-color: #b07cf7;
+  color: #fff; }
+  .blog__title {
+    margin-bottom: 45px;
+    padding-top: 100px; }
+  .blog__description {
+    margin-bottom: 50px;
+    line-height: 27px; }
+  .blog__row {
+    margin-bottom: 65px; }
+  .blog__item-smozi {
+    background-image: url("../img/blog1.png");
+    background-repeat: no-repeat; }
+  .blog__item-soup {
+    background-image: url("../img/blog2.png");
+    background-repeat: no-repeat; }
+  .blog__item-strobery {
+    background-image: url("../img/blog3.png");
+    background-repeat: no-repeat; }
+  .blog__date {
+    display: inline-block;
+    width: 15%;
+    margin-top: 30px;
+    margin-left: 30px;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 900;
+    border-radius: 5px;
+    background-color: #262626; }
+  .blog__eat {
+    display: block;
+    padding-top: 119px;
+    padding-right: 10px;
+    padding-left: 20px;
+    margin-bottom: 24px;
+    font-size: 20px;
+    font-weight: 700; }
+  .blog__auskteez {
+    display: inline-block;
+    margin-bottom: 24px;
+    padding-left: 20px;
+    font-size: 13px; }
+  .blog__link {
+    padding: 20px 45px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #f72b3b; }
+  .blog__down {
     padding-bottom: 120px; }

@@ -1,0 +1,36 @@
+.subscribe{
+
+    background-image: url('#{$way-to}bg-yagodi.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    &__title{
+        padding-top: 140px;
+        margin-bottom: 35px;
+    }
+
+    &__description{
+        margin-bottom: 35px;
+    }
+    &__form{
+        padding-bottom: 160px;
+    }
+
+    &__email{
+        width: 100%;
+        font-family: $releway;
+        font-size: 15px;
+        padding: 20px;
+    }
+
+    &__btn{
+        width: 100%;
+        padding: 16px 0;
+        font-family: $releway;
+        font-size: 20px;
+        
+        color: $white;
+        background-color: $green;
+    }
+
+}
