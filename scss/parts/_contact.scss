@@ -1,0 +1,48 @@
+.contact{
+    background-image: url('#{$way-to}contact.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__title{
+        margin-bottom: 50px;
+        padding-top: 100px;
+    }
+
+    &__description{
+        margin-bottom: 45px;
+    }
+
+    &__row{
+        padding-bottom: 120px;
+    }
+
+    &__col{
+        margin-right: 170px;
+    }
+
+    &__form{
+        width: 100%;
+    }
+
+    &__fild{
+        width: 100%;
+        margin-bottom: 15px;
+        padding: 20px;
+        font-family: $releway;
+        border: none;
+        color: $white;
+        background-color: $aqua-m;
+        opacity: 0.5;
+
+        &:focus{
+            font-weight: 700;
+            border-left: 5px solid $dark;
+            opacity: 1;
+        }
+    }
+
+    &__info{
+        margin-bottom: 20px;
+    }
+
+}

@@ -1,0 +1,33 @@
+.footer{
+    color: $white;
+    background-color: $dark;
+
+    &__conteiner{
+        display: flex;
+	    flex-direction: row;
+	    flex-wrap: nowrap;
+	    justify-content: space-between;
+	    align-items: center;
+	    align-content: stretch;
+    }
+
+    &__contact{
+        
+    }
+
+    &__title{
+        font-family: $pacifico;
+        font-size: 25px;
+    }
+
+    &__link{
+        color: $white;
+
+        &--red{
+            font-weight: 700;
+            color: $sexy-red;
+        }
+
+    }
+
+}

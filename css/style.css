@@ -23,7 +23,8 @@ ul {
   list-style: none; }
 
 p {
-  font-size: 17px; }
+  font-size: 17px;
+  line-height: 27px; }
 
 .grid {
   width: 1170px;
@@ -217,7 +218,8 @@ p {
     padding-top: 140px;
     margin-bottom: 35px; }
   .subscribe__description {
-    margin-bottom: 35px; }
+    margin-bottom: 35px;
+    line-height: 27px; }
   .subscribe__form {
     padding-bottom: 160px; }
   .subscribe__email {
@@ -283,3 +285,64 @@ p {
     background-color: #f72b3b; }
   .blog__down {
     padding-bottom: 120px; }
+
+.contact {
+  background-image: url("../img/contact.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .contact__title {
+    margin-bottom: 50px;
+    padding-top: 100px; }
+  .contact__description {
+    margin-bottom: 45px; }
+  .contact__row {
+    padding-bottom: 120px; }
+  .contact__col {
+    margin-right: 170px; }
+  .contact__form {
+    width: 100%; }
+  .contact__fild {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 20px;
+    font-family: "Raleway", sans-serif;
+    border: none;
+    color: #fff;
+    background-color: #00c4c4;
+    opacity: 0.5; }
+    .contact__fild:focus {
+      font-weight: 700;
+      border-left: 5px solid #262626;
+      opacity: 1; }
+  .contact__info {
+    margin-bottom: 20px; }
+
+.footer {
+  color: #fff;
+  background-color: #262626; }
+  .footer__conteiner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch; }
+  .footer__title {
+    font-family: "Pacifico", cursive;
+    font-size: 25px; }
+  .footer__link {
+    color: #fff; }
+    .footer__link--red {
+      font-weight: 700;
+      color: #f72b3b; }
